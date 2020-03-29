@@ -12,10 +12,9 @@ function App() {
     <Router>
       <div>
         <Navbar />
-        <Route exact path="/React-Portfolio/index" component={About}/>
+        <Route exact path="/React-Portfolio" component={About}/>
         <Route exact path="/React-Portfolio/contact" component={Contact}/>
         <Route exact path="/React-Portfolio/portfolio" component={Portfolio}/>
-
         <Footer />
       </div>
     </Router>
