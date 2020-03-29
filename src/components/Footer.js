@@ -7,21 +7,20 @@ function Footer() {
             <div class="container">
                 <ul class="nav justify-content-center">
                     <li class="nav-item">
-                        <Link class="nav-link" href="/Portfolio/portfolio.html">Portfolio</Link>
+                        <Link class="nav-link" href="/React-Portfolio/portfolio">Portfolio</Link>
                     </li>
                     <li class="nav-item">
-                        <Link class="nav-link" href="/Portfolio/contact.html">Contact</Link>
+                        <Link class="nav-link" href="/React-Portfolio/contact">Contact</Link>
                     </li>
                     <li class="nav-item">
-                        <Link class="nav-link active" href="/Portfolio/index.html">About</Link>
+                        <Link class="nav-link active" href="/React-Portfolio">About</Link>
                     </li>
                     <li class="nav-item">
-                        <Link class="nav-link" href="https://github.com/ryanww321" target="_blank"><i class="fa fa-github"
-                            aria-hidden="true"></i></Link>
+                        <a class="nav-link" href="https://github.com/ryanww321" target="_blank" rel="noopener noreferrer"><i class="fa fa-github"></i></a>
                     </li>
                     <li class="nav-item">
-                        <Link class="nav-link" href="https://www.linkedin.com/in/ryan-whitcomb-92561530/" target="_blank"><i
-                            class="fa fa-linkedin" aria-hidden="true"></i></Link>
+                        <a class="nav-link" href="https://www.linkedin.com/in/ryan-whitcomb-92561530/" target="_blank" rel="noopener noreferrer"><i
+                            class="fa fa-linkedin"></i></a>
                     </li>
                 </ul>
             </div>
